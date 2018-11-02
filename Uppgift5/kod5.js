@@ -22,31 +22,31 @@ function randomDice(){
 			let fyra = 0;
 			let fem = 0;
 			let sex = 0;
-			i=0;                // tal[0] = tar ett slumpmässigt tal. Kollar sedan i if-sats efter korresponderande if-sats nedan
-			while(i<tal.length){ 
+			               // tal[0] = tar ett slumpmässigt tal. Kollar sedan i if-sats efter korresponderande if-sats nedan
+			for(i=0; i<tal.length ; i++){ 
 				if(tal[i] == 1){ // Om indexen 'i' i fältet tal är lika med 1 så ska satserna i denna if-sats utföras, osv nedåt..
 					ett++;
-					i++;
+					
 				}
 				if(tal[i] == 2){ 
 					två++;
-					i++;
+					
 				}
 				if(tal[i] == 3){ 
 					tre++;
-					i++;
+					
 				}
 				if(tal[i] == 4){ 
 					fyra++;
-					i++;
+				
 				}
 				if(tal[i] == 5){ 
 					fem++;
-					i++;
+					
 				}
 				if(tal[i] == 6){ 
 					sex++;
-					i++;
+					
 				}
 			}
 			

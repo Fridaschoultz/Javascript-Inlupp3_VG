@@ -7,13 +7,17 @@
                 fak *= x;             /* beräknar 1*1 och sedan ökar x med ett så att det i nästa
                                        varv är 2 * 1, 3*1 osv, skulle kunna stå fak = x *fak */
             }
-            return document.write(tal + "! = " + fak); // när satsen över stämmer så returneras ett svar till anvävndaren
+            return document.write(tal + "! = " + fak); // när for-satsen över stämmer så returneras ett svar till anvävndaren
         }
         else{
-            document.write("Talet får inte vara större än 1000!"); // annars så visas ett felmedelande
-        }
+        document.write("Talet får inte vara större än 1000!"); // annars så visas ett felmeddelande
+     }
+        
     }
 
-    fakultet(); // anropar funktionen fakultet      
+    fakultet(); // anropar funktionen fakultet   
+
+
+    
 
 
